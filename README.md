@@ -1,13 +1,4 @@
-
-
-
-
-# Client - Server Architecture
-![image](https://github.com/PavanKalavakuri/Employee-Management/assets/42912788/fb687ec6-2bf5-4209-bdac-76b091f2895e)
-
-# Spring-boot & React Architecture
-<img width="1000" alt="Screenshot 2024-03-04 at 3 52 24 AM" src="https://github.com/PavanKalavakuri/Employee-Management/assets/42912788/e1dc7b3c-b85d-485b-b77a-2e64381fd0fd">
-
+Implemented a Rect & Springboot CRUD application with MySQL.
 
 # Getting Started with Create React App
 
