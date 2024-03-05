@@ -3,8 +3,7 @@
 
 
 ## Client - Server Architecture
-<img width="1000" alt="Screenshot 2024-03-04 at 3 50 18 AM" src="https://github.com/PavanKalavakuri/Employee-Management/assets/42912788/ac6cfb85-156a-44a6-b686-f58d36e98fc1">
-
+![image](https://github.com/PavanKalavakuri/Employee-Management/assets/42912788/d1d6a553-7d26-4125-a26a-19dc4e61d390)
 ## Spring-boot & React Architecture
 <img width="1000" alt="Screenshot 2024-03-04 at 3 52 24 AM" src="https://github.com/PavanKalavakuri/Employee-Management/assets/42912788/e1dc7b3c-b85d-485b-b77a-2e64381fd0fd">
 
