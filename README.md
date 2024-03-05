@@ -1,3 +1,14 @@
+
+
+
+
+## Client - Server Architecture
+<img width="1323" alt="Screenshot 2024-03-04 at 3 50 18 AM" src="https://github.com/PavanKalavakuri/Employee-Management/assets/42912788/ac6cfb85-156a-44a6-b686-f58d36e98fc1">
+
+## Spring-boot & React Architecture
+<img width="1405" alt="Screenshot 2024-03-04 at 3 52 24 AM" src="https://github.com/PavanKalavakuri/Employee-Management/assets/42912788/e1dc7b3c-b85d-485b-b77a-2e64381fd0fd">
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
