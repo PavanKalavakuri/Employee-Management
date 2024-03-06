@@ -1,72 +1,55 @@
-Implemented a Rect & Springboot CRUD application with MySQL.
+# Employee Management System
 
-# Getting Started with Create React App
+The Employee Management System is a web application built to facilitate the management of employee data within an organization. It allows users to perform CRUD (Create, Read, Update, Delete) operations on employee records through an intuitive and user-friendly interface.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technologies Used
 
-## Available Scripts
+- **Frontend**: React
+- **Backend**: Spring Boot
+- **Database**: MySQL
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **CRUD Operations**: Users can create, read, update, and delete employee records.
+- **Dynamic UI**: The frontend is built using React, providing a dynamic and responsive user interface.
+- **RESTful APIs**: The backend is developed with Spring Boot, offering robust RESTful APIs for communication between the frontend and backend components.
+- **Data Storage**: Employee data is stored in a MySQL database, ensuring reliability and efficiency in data management.
+- **User Authentication and Authorization (Optional)**: Optional features for user authentication and authorization can be implemented to secure access to employee data.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img width="800" alt="Screenshot 2024-03-05 at 4 42 46 PM" src="https://github.com/PavanKalavakuri/Employee-Management/assets/42912788/6c876e46-4204-4689-9897-38bff9354bc0">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img width="738" alt="Screenshot 2024-03-05 at 4 43 07 PM" src="https://github.com/PavanKalavakuri/Employee-Management/assets/42912788/7be9d80c-0410-47dd-b38f-c8c9e9963143">
 
-### `npm test`
+## Setup Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the Repository**: 
+git clone https://github.com/PavanKalavakuri/Employee-Management.git
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Backend Setup**:
+- Navigate to the `backend` directory:
+  ```
+  cd backend
+  ```
+- Configure MySQL database properties in `application.properties`.
+- Run the Spring Boot application:
+  ```
+  ./mvnw spring-boot:run
+  ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Frontend Setup**:
+- Navigate to the `frontend` directory:
+  ```
+  cd frontend
+  ```
+- Install dependencies:
+  ```
+  npm install
+  ```
+- Start the React development server:
+  ```
+  npm start
+  ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. **Access the Application**:
+- Open your web browser and navigate to `http://localhost:3000` to access the Employee Management System.
